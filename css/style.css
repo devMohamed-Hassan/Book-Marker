@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+    background: linear-gradient(to bottom, #1e3c72, #2a5298);
+    color: #fff !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    animation: fadeIn 2s ease-in-out, backgroundAnimation 2s infinite alternate ease-in-out !important;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    animation: fadeInDown 1s ease-in-out !important;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+/* form */
+.form-container {
+    max-width: 600px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-container label {
+    font-weight: bold;
+    color: #6c4a3f;
+}
+
+.form-container input {
+    box-shadow: 0px 4px 8px #2d4f88;
+}
+
+.form-btn {
+    background: linear-gradient(to right, #1e3c72, #2a5298) !important;
+    color: #fff !important;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.form-btn:hover {
+    background: linear-gradient(to bottom, #2d4f88, #3a63ad) !important;
+}
+.input-group {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    padding: 5px 10px;
+    background: #FFFF;
+    box-shadow: 0px 4px 8px #2d4f88;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.icon-wrapper {
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px #2d4f88;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+/* table */
+
+.table-container {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+
+table {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+table thead {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    color: white;
+}
+
+table th,
+table td {
+    vertical-align: middle;
+    font-weight: 500;
+}
+
+table a.btn {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+    background: #3a63ad !important;
+    border: none;
+    
+}
+
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        background: linear-gradient(to bottom, #1e3c72, #2a5298);
+    }
+
+    100% {
+        background: linear-gradient(to bottom, #2a5298, #1e3c72);
+    }
+}
