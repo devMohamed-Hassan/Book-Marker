@@ -1,6 +1,6 @@
-# Bookmarker
+# BookMarker
 
-Bookmarker is a simple and easy-to-use web application that allows users to add, manage, and store their favorite website bookmarks. It supports storing bookmarks in the browser's local storage, so the data is persistent across page reloads.
+Book Marker is a simple and easy-to-use web application that allows users to add, manage, and store their favorite website bookmarks. It supports storing bookmarks in the browser's local storage, so the data is persistent across page reloads.
 
 ## Features
 - Add a bookmark by entering the site name and URL.
@@ -11,4 +11,4 @@ Bookmarker is a simple and easy-to-use web application that allows users to add,
 
 ## Live Demo:
 
-[Live Demo](https://devMohamed-Hassan.github.io/Bookmarker/)
+[Book Marker](https://devmohamed-hassan.github.io/Book-Marker/)
