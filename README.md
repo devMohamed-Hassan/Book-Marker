@@ -10,6 +10,5 @@ Bookmarker is a simple and easy-to-use web application that allows users to add,
 - Validates site name and URL format.
 
 ## Live Demo:
-You can try the live demo of the project by clicking the link below:
 
 [Live Demo](https://mohamed-h-esmail.github.io/Bookmarker/)
